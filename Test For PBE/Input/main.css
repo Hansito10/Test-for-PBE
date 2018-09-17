@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+body {
+  height: 460px;
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif; }
+
+.box-resizee {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; }
+
+img {
+  width: 160px;
+  height: 80px;
+  position: relative;
+  top: 430px; }
+
+/*# sourceMappingURL=main.css.map */

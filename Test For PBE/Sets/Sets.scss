@@ -1,0 +1,98 @@
+
+
+body{
+    width:103%;
+    font-weight: 300;
+}
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* Title */
+#set-h{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+}
+
+/*Tables for the sets*/
+
+/* Padding and margin stuff */
+#luke1-24,tbody{
+height:3px;
+width:1290px;
+position: relative;
+}
+
+tr,table{
+padding:0px;
+
+}
+
+td{
+    padding:14px;
+}
+
+/* End of Padding and margin stuff */
+
+table,td,tr{
+    display: inline-block; 
+    text-align: center;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    height: 3px;
+}
+
+/* Timeline */
+#timeline{
+    position: relative;
+    background-color: black;
+    width:1270px;
+    font-weight: 300;
+    height: 2px;
+    position:0px;
+    bottom:-20px;
+}
+
+#circle{
+   position: relative ;
+   top:46px;
+   width:20px; 
+   height: 20px;
+   background-color:black;
+   border-radius: 50%;
+}
+
+/* End of Timeline stuff */
+/* Sets */
+
+// Scss part
+$default-color: black !default ;
+
+
+// End of Scss
+
+td:hover{
+    transition: 3s all;
+    font-size:50px;
+}
+td{
+    transition: 3s all;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+
+}
+
+h2{
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing:10px;
+    text-align: center;
+}
+
+a{
+ text-decoration: none;
+ color:black;
+}
+
+/*End of tables*/
+/*Link to home page*/
+
